@@ -854,7 +854,7 @@ def main():
     # Training
     if args.do_meta_train:
         logger.info("DO META LEARNING")
-        lang_list = {"php", "python"}
+        lang_list = {"java", "python"}
         langs_dataset = {}
         for lang in lang_list:
             datadir = os.path.join(args.data_dir, lang)
