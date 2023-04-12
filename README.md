@@ -44,7 +44,7 @@ Other model implementation files can refer to codesearch task in CodeBERT.
 
 For example, if you want to run the meta learning, you can simple run:
 ```
-python maml.py --data_dir dataset/ --model_type roberta --model_name_or_path microsoft/codebert-base --task_name codesearch --output_dir output --do_meta_train --train_file train/file.tsv
+python maml.py --data_dir dataset/ --model_type roberta --model_name_or_path model/ --task_name codesearch --output_dir output --do_meta_train --train_file train/file.tsv
 ```
 
 If you want to run fine-tuning, you can replace the `--do_meta_train` with `--do_train`
