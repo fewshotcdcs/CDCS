@@ -66,3 +66,19 @@ python maml.py \
 
 If you want to run fine-tuning, you can replace the `--do_meta_train` with `--do_train`
 
+## Checkpoints
+
+For quick replication, we have released our pre-trained and meta-learned checkpoints at
+https://github.com/fewshotcdcs/CDCS/releases/tag/v1.0.0
+
+## Citation
+
+@inproceedings{chai2022cdcs,
+title={Cross-Domain Deep Code Search with Meta Learning},
+author={Chai, Yitian and Zhang, Hongyu and Shen, Beijun and Gu, Xiaodong},
+booktitle={Proceedings of the 44th International Conference on Software Engineering (ICSE 2022)},
+year={2022},
+organization={ACM}
+}
+
+
