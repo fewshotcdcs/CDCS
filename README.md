@@ -72,7 +72,7 @@ For quick replication, we have released our pre-trained and meta-learned checkpo
 https://github.com/fewshotcdcs/CDCS/releases/tag/v1.0.0
 
 ## Citation
-
+```bibtex
 @inproceedings{chai2022cdcs,
 title={Cross-Domain Deep Code Search with Meta Learning},
 author={Chai, Yitian and Zhang, Hongyu and Shen, Beijun and Gu, Xiaodong},
@@ -80,5 +80,6 @@ booktitle={Proceedings of the 44th International Conference on Software Engineer
 year={2022},
 organization={ACM}
 }
+```
 
 
